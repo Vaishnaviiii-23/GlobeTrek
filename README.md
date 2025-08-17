@@ -3,7 +3,7 @@
 **Objective:** Explore countries with search, filter, pagination, and flags.
 
 **Features:**
-- Fetches country data fro# GlobeTrek 🌍
+- Fetches country data from GlobeTrek 🌍
 
 **Objective:** Explore countries with search, filter, pagination, and flags.
 
