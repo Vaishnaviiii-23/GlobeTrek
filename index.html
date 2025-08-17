@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🌍 Countries Explorer</h1>
+      <p class="subtitle">Search, filter, and browse countries (flags, capital, population, region)</p>
+      <button id="darkModeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <section class="controls">
+      <input id="searchInput" type="search" placeholder="Search by country name..." />
+      <select id="regionSelect">
+        <option value="All">All Regions</option>
+      </select>
+    </section>
+
+    <section id="status" class="status" aria-live="polite"></section>
+
+    <main>
+      <div id="grid" class="grid"></div>
+    </main>
+
+    <nav class="pagination">
+      <button id="prevBtn">Prev</button>
+      <div id="pages" class="pages"></div>
+      <button id="nextBtn">Next</button>
+    </nav>
+
+    <footer>
+      <small>Data source: REST Countries API • Items per page: <span id="perPage">10</span></small>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
