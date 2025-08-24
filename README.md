@@ -44,7 +44,7 @@ GlobeTrek/
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 ---
 
 ## 🤝 Contributing
